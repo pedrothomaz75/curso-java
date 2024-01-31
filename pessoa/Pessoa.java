@@ -36,7 +36,5 @@ public class Pessoa {
         return "Nome da pessoa: " + nome + " Idade: " + idade + " documento: " + cpf;
     }
 
-    String imprimirIndice(int indice) {
-        return "Indice: " + indice;
-    }
 }
+

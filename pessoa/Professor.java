@@ -11,6 +11,11 @@ public class Professor extends Pessoa{
         this.salario = salario;
     }
 
-    
+    // Sobrescreveu
+    String imprimirDadosPessoa(){
+        // Vai na classe pai(Pessoa) e vai herdar os dados da classe pessoa
+        System.out.println(super.imprimirDadosDaPessoa());
+        return "Voce es professor";
+    }
 
 }
